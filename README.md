@@ -1,3 +1,5 @@
+![downloads](https://img.shields.io/npm/dm/lunar-lib)
+
 # Lunar client launcher library
 
 This is a javascript library to launch lunar client, without having the launcher installed
