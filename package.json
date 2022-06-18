@@ -4,6 +4,7 @@
     "name": "Pringles",
     "url": "https://github.com/PringlePot"
   },
+  "repository": "PringlePot/LunarLauncherLib",
   "version": "1.0.1",
   "main": "dist/index.js",
   "license": "MIT",
