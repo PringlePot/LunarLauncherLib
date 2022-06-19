@@ -12,9 +12,11 @@ It downloads all required files by mimicking the normal launcher, then launches
 
 ```typescript
 async function main() {
-  const lunar = await LunarLauncher.init();
-  lunar.setVersion('1.7');
-  await lunar.launch();
+  const lunar = await LunarLauncher.init(); // fetch the versions, and other metadata from the launcher
+  
+  lunar.setVersion('1.7'); // this will set the requested version to 1.7, is 1.8 by default
+  
+  await lunar.launch(); // this will download all files, and then launch java
 }
 
 main();
