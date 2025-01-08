@@ -1,3 +1,7 @@
+
+> [!WARNING]
+> This code does not work anymore, and will not be updated any longer.
+
 ![downloads](https://img.shields.io/npm/dm/lunar-lib)
 
 # Lunar client launcher library
